@@ -9,6 +9,7 @@ public class HttpCount {
         httpURLConnection.setRequestMethod("POST");
         httpURLConnection.getInputStream();
         System.out.println("hot_fix");
+        System.out.println("push_text");
     }
 
 }
