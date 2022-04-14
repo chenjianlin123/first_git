@@ -8,6 +8,7 @@ public class HttpCount {
         HttpURLConnection httpURLConnection= (HttpURLConnection) url.openConnection();
         httpURLConnection.setRequestMethod("POST");
         httpURLConnection.getInputStream();
+        System.out.println("hello");
     }
 
 }
